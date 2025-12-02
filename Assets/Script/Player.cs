@@ -3,8 +3,8 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     //public Fields
-    private float moveSpeed = 5f;  //ค่า Speed
-    private float jumpForce = 10f; // ค่ากระโดด
+    [SerializeField] private float moveSpeed = 5f;  //ค่า Speed
+    [SerializeField] private float jumpForce = 10f; // ค่ากระโดด
 
     private Rigidbody2D rb;
 
